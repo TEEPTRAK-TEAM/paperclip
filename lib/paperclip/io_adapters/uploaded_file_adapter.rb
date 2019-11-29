@@ -30,7 +30,7 @@ module Paperclip
     end
 
     def content_type_detector
-      self.class.content_type_detector || Paperclip::ContentTypeDetector
+      self.class.content_type_detector
     end
 
     def determine_content_type
